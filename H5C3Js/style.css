@@ -1,0 +1,164 @@
+table
+{
+    border-color: #ff4eaa;
+    background-color: #eedaff;
+    align-content: center;
+    font-family: 隶书;
+    color: #4fbe8a;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tb1
+{
+    border-color: #ff4eaa;
+    background-color: #eedaff;
+    align-content: center;
+    font-family: 华文行楷;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a
+{
+    font-family: Arial;
+    font-size:20px;
+    color: #1aac16
+}
+a#ins1
+{
+    text-align: left;
+    color: #00064a;
+    font-family: 华文行楷;
+    font-size: 30px;
+}
+p
+{
+    font-family: Arial;
+    font-size:15px;
+    color: #1d22ac;
+    text-align: left;
+    text-indent: 6em;
+}
+
+h1{
+    color: #00064a;
+    font-size:40px;
+}
+
+.color-lump1
+{
+    position:fixed;
+    left: 250px;
+    top: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: #ffa4ba;
+    opacity:0.5;
+}
+
+.color-lump2
+{
+    position:fixed;
+    left: 170px;
+    top: 180px;
+    width: 80px;
+    height: 80px;
+    background-color: #bbb9ff;
+    opacity:0.5;
+}
+
+.color-lump3
+{
+    position:fixed;
+    left: 170px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #a6ff91;
+    opacity:0.5;
+}
+
+.box {
+    display: none;
+    left: 170px;
+    top: 180px;
+    height: 56px;
+    width: 395px;
+    background-color: rgba(199, 209, 255, 0.8);
+    padding: 12px;
+    text-align: left;
+    position: absolute;
+    color: #00064a;
+    font-family: 华文行楷;
+    font-size: 30px;
+    line-height:58px;
+    text-indent: 3em;
+}
+
+.picleft{
+    display:inline-block;
+    height:150px;
+    width:150px;
+    background:url(resources/head.png) 0px 0px;
+}
+
+.picright{
+    display:inline-block;
+    height:150px;
+    width:150px;
+    background:url(resources/head.png) 150px 0px;
+}
+
+.list-menu{
+    display: flex;
+    background: #eedaff;
+    border-radius: 5px;
+    padding: 10px 0px;
+    justify-content: space-around;
+    color: #205D67;
+    width: 100%;
+}
+
+.list-menu li{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 隶书;
+    color: #511963;
+}
+
+.list-menu li:hover > ul{
+    box-shadow: 0 0 10px #eedaff;
+    display: block;
+}
+
+.list-menu li ul{
+    position: absolute;
+    display: none;
+    background: rgba(255, 202, 209, 0.6);
+    border:3px rgba(255, 190, 209, 0.8) solid;
+    border-radius: 5px;
+    width: 10%;
+    margin: 0px;
+    padding: 0px;
+    color:#205D67;
+}
+
+.list-menu li ul a{
+    text-decoration: none;
+    color:#205D67;
+}
+
+.list-menu li ul a li{
+    line-height: 30px;
+    padding-left:10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.list-menu li ul a li:hover{
+    background: #f7f7f7;
+    cursor: pointer;
+}
